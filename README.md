@@ -7,9 +7,9 @@ cars-dealership
 Cars Dealership Application
 
 ## Description
-A full-stack web application developed as part of the IBM Full Stack Software Developer Capstone Project.
+This project is part of the IBM Full Stack Software Developer Capstone.
 
-The application allows users to view car dealership locations, explore dealer details, register, log in, and submit reviews.
+It is a full-stack web application that allows users to view car dealerships, explore dealership details, register, log in, and submit reviews.
 
 ## Technologies
 - React
