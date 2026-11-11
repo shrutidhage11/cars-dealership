@@ -4,94 +4,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Dealerships</title>
+    <title>About Us - Best Cars Dealership</title>
 
     <link rel="stylesheet" href="/static/bootstrap.min.css">
     <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light"
-     style="background-color: darkturquoise; min-height: 80px;">
-    <div class="container-fluid">
-        <a class="navbar-brand fw-bold" href="/">Dealerships</a>
-
-        <button class="navbar-toggler" type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarText"
-                aria-controls="navbarText"
-                aria-expanded="false"
-                aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-                <li class="nav-item"><a class="nav-link active" href="/about">About Us</a></li>
-                <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
-            </ul>
-        </div>
+<nav class="navbar navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="/">Best Cars Dealership</a>
     </div>
 </nav>
 
-<main class="container my-5">
-    <div class="text-center mb-5">
-        <h1>About Us</h1>
-        <p class="lead">
-            Meet the team behind our car dealership platform.
-            We are dedicated to making your car-buying experience simple
-            and convenient.
-        </p>
+<section class="container py-5">
+    <h1 class="text-center mb-4">About Us</h1>
+
+    <p class="lead text-center">
+        Best Cars Dealership is an online automobile dealership platform
+        designed to help customers explore available cars, discover
+        trusted dealerships, compare vehicle options, and share their
+        experiences through customer reviews. Our goal is to make
+        finding and choosing the right car simple, convenient, and reliable.
+    </p>
+
+    <h2 class="text-center mt-5 mb-4">Meet Our Team</h2>
+
+    <div class="row text-center">
+
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg"
+                     class="card-img-top"
+                     alt="Aarav Sharma"
+                     style="height:250px; object-fit:cover;">
+                <div class="card-body">
+                    <h4>Aarav Sharma</h4>
+                    <h6>Project Manager</h6>
+                    <p>Coordinates project development and ensures
+                       successful delivery of the dealership platform.</p>
+                    <a href="mailto:aarav@example.com">
+                        aarav@example.com
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow">
+                <img src="https://randomuser.me/api/portraits/women/44.jpg"
+                     class="card-img-top"
+                     alt="Priya Deshmukh"
+                     style="height:250px; object-fit:cover;">
+                <div class="card-body">
+                    <h4>Priya Deshmukh</h4>
+                    <h6>Frontend Developer</h6>
+                    <p>Develops responsive and user-friendly website
+                       interfaces for customers.</p>
+                    <a href="mailto:priya@example.com">
+                        priya@example.com
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow">
+                <img src="https://randomuser.me/api/portraits/men/75.jpg"
+                     class="card-img-top"
+                     alt="Rohan Patil"
+                     style="height:250px; object-fit:cover;">
+                <div class="card-body">
+                    <h4>Rohan Patil</h4>
+                    <h6>Backend Developer</h6>
+                    <p>Manages application functionality, database
+                       integration, and server-side development.</p>
+                    <a href="mailto:rohan@example.com">
+                        rohan@example.com
+                    </a>
+                </div>
+            </div>
+        </div>
+
     </div>
+</section>
 
-    <div class="row justify-content-center g-4">
+<footer class="bg-dark text-white text-center p-3">
+    <p>© 2026 Best Cars Dealership. All Rights Reserved.</p>
+</footer>
 
-        <div class="col-md-4">
-            <div class="card h-100 shadow-sm">
-                <img class="card-img-top"
-                     src="https://randomuser.me/api/portraits/men/32.jpg"
-                     alt="Aarav Sharma">
-                <div class="card-body text-center">
-                    <h5>Aarav Sharma</h5>
-                    <h6 class="text-muted">Project Manager</h6>
-                    <p>Aarav coordinates project activities and ensures a smooth user experience.</p>
-                    <a href="mailto:aarav@example.com">aarav@example.com</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-4">
-            <div class="card h-100 shadow-sm">
-                <img class="card-img-top"
-                     src="https://randomuser.me/api/portraits/women/44.jpg"
-                     alt="Priya Deshmukh">
-                <div class="card-body text-center">
-                    <h5>Priya Deshmukh</h5>
-                    <h6 class="text-muted">Frontend Developer</h6>
-                    <p>Priya develops responsive and user-friendly website interfaces.</p>
-                    <a href="mailto:priya@example.com">priya@example.com</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-4">
-            <div class="card h-100 shadow-sm">
-                <img class="card-img-top"
-                     src="https://randomuser.me/api/portraits/men/75.jpg"
-                     alt="Rohan Patil">
-                <div class="card-body text-center">
-                    <h5>Rohan Patil</h5>
-                    <h6 class="text-muted">Backend Developer</h6>
-                    <p>Rohan develops server-side features and manages reliable data handling.</p>
-                    <a href="mailto:rohan@example.com">rohan@example.com</a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</main>
-
-<script src="/static/bootstrap.min.js"></script>
 </body>
 </html>
