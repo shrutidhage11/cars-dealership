@@ -1,21 +1,11 @@
-# Cars Dealership Application
+# fullstack_developer_capstone
 
-## Repository Name
-cars-dealership
+**Repository Name:** xrwvm-fullstack_developer_capstone
 
-## Project Name
-Cars Dealership Application
+**Project Name:** fullstack_developer_capstone
 
-## Description
-This project is part of the IBM Full Stack Software Developer Capstone.
+## Project Description
 
-It is a full-stack web application that allows users to view car dealerships, explore dealership details, register, log in, and submit reviews.
+This project is an IBM Full Stack Software Developer Capstone project. It is a car dealership review portal developed using Django, Python, JavaScript, React, and related technologies.
 
-## Technologies
-- React
-- Django
-- Python
-- JavaScript
-- HTML
-- CSS
-- Git and GitHub
+The application allows users to view dealerships, filter dealers by state, register, log in, and submit dealership reviews.
